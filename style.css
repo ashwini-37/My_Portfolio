@@ -398,6 +398,95 @@ div.header
         width: 60%;
     }
 }
+/* education */
+
+/* Add these styles to your existing CSS */
+
+/* Education Section */
+.education {
+    padding: 40px;
+    background-color: #323946;
+}
+
+.dispalyflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frist,
+.second {
+    flex: 1;
+    
+}
+
+.heading123 {
+    color: #fcfafa;
+}
+
+.flexrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 90px;
+}
+
+.flexrow .education-section {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid  #7bdaeb ;
+    width: 400px;
+
+}
+
+/* Certification Section */
+.heading12 {
+    color: #f5eded;
+    /* justify-content: center; */
+}
+
+.flexcolum {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexcolum .education-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid  #7bdaeb ;
+    width: 428px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .dispalyflex {
+        flex-direction: column;
+    }
+
+    .frist,
+    .second {
+        width: 100%;
+    }
+}
+.flexacher{
+    border: 3px solid  #7bdaeb;
+    text-decoration: none;
+    color: black;
+    background-color: #0ef;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 19px;
+    cursor: pointer;
+    font-weight:bold;
+    transition: .3s;
+    box-shadow:  0 0 15px #0ef;
+   
+}
+.flexacher a:hover
+{
+    box-shadow: none;
+}
+
 /* contact */
 
 .heading1{
